@@ -28,11 +28,12 @@ let h3Rtrm = document.querySelector(".h3Rtrm");
 let RtrmUl = document.querySelector(".RtrmUl");
 const AudioBtn = document.querySelector('.AudioBtn');
 
+const apiKey = 'YOUR_API_KEY_HERE'
 const url = 'https://twinword-word-graph-dictionary.p.rapidapi.com/definition/?entry=';
 const options = {
     method: 'GET',
     headers: {
-        'X-RapidAPI-Key': 'c60d20dae4mshe18ee98aa329ed8p184bc1jsn915a498436aa',
+        'X-RapidAPI-Key': apiKey,
         'X-RapidAPI-Host': 'twinword-word-graph-dictionary.p.rapidapi.com'
     }
 };
@@ -41,7 +42,7 @@ const url_2 = 'https://wordsapiv1.p.rapidapi.com/words/';
 const options_2 = {
     method: 'GET',
     headers: {
-        'X-RapidAPI-Key': 'c60d20dae4mshe18ee98aa329ed8p184bc1jsn915a498436aa',
+        'X-RapidAPI-Key': apiKey,
         'X-RapidAPI-Host': 'wordsapiv1.p.rapidapi.com'
     }
 };
