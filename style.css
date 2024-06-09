@@ -1,0 +1,227 @@
+body {
+    background-color: #eeeee3;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    flex: 1;
+}
+
+* {
+    transition: .25s;
+}
+
+.material-symbols-outlined {
+    position: relative;
+    top: 3px;
+}
+
+.h2Wrd {
+    text-transform: capitalize;
+    background: linear-gradient(to right, #1d83e9, #1b9b9d);
+    width: fit-content;
+    padding: 12px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0px 0px 14px -7px #1d83e9;
+    background-image: linear-gradient(45deg, #1d83e9 0%, #1b9b9d 51%, #1d83e9 100%);
+    user-select: none;
+}
+
+.h2Wrd:hover {
+    background-position: right center;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    font-size: 1.75rem;
+}
+
+.pronunce {
+    font-size: 1.2rem;
+    width: fit-content;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+}
+
+.AudioBtn,
+.BkMrkAddBtn,
+.bookmarkedBtn {
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    width: fit-content;
+    border: none;
+    border-radius: 50%;
+    margin-left: .75rem;
+    padding: 2px 10px;
+
+}
+
+.BkMrkAddBtn:hover,
+.bookmarkedBtn:hover,
+.AudioBtn:hover {
+    transform: translateX(2px);
+}
+
+.BkMrkAddBtn:active,
+.bookmarkedBtn:active,
+.AudioBtn:active {
+    transform: translateX(3px);
+}
+
+.SynAnt {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.synonyms {
+    margin-right: 3rem;
+}
+
+.pronounceBar {
+    display: flex;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+.h2Err {
+    font-size: 2.5rem;
+}
+
+p,
+ul {
+    font-size: 1.1rem;
+}
+
+hr {
+    border-top: 2px solid black;
+}
+
+.Blur {
+    opacity: 0;
+    transition: opacity .75s ease-in-out;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.55);
+    backdrop-filter: blur(15px);
+}
+
+div a:hover {
+    transform: translateX(2px);
+
+}
+
+.randbtn,
+.dayWrdBtn,
+.BkListBtn,.searchBtn {
+    font-weight: 500;
+    font-size: .9rem;
+    color: white;
+    background: linear-gradient(to right, #1d83e9, #1b9b9d);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    padding: 10px 15px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    box-shadow: 0px 0px 14px -7px #1d83e9;
+    background-image: linear-gradient(45deg, #1d83e9 0%, #1b9b9d 51%, #1d83e9 100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.searchBtn{
+    margin: 2px;
+}
+
+.randbtn:hover,
+.dayWrdBtn:hover,
+.bookmarksBtn:hover,
+.BkListBtn:hover,.searchBtn:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    transform: translateX(2px);
+}
+
+.lobster-two-regular {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lobster-two-bold {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+footer {
+    margin-top: 4rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+}
+
+small {
+    font-size: .75rem;
+    font-weight: bold;
+}
+
+.BkMrkUl {
+    padding: 1rem;
+}
