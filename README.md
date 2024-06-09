@@ -22,7 +22,7 @@ The Dictionary App is a robust tool designed to enhance language learning, offer
 2. Bootstrap
 
 # Installation
-1. Clone the repository: git clone https://github.com/yourusername/dictionary-app.git
+1. Clone the repository: git clone https://github.com/SyedGhanimAk/DictionaryApp.git
 2. Navigate to the project directory: cd dictionary-app
 3. Replace 'YOUR_API_KEY_HERE' with your actual API key in the following part of the code: const apiKey = 'YOUR_API_KEY_HERE'
 4. Open index.html in your web browser using Live Server. 
