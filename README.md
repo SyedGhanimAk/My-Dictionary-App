@@ -1,4 +1,4 @@
-# The Dictionary App
+# My Dictionary App
 
 The Dictionary App is a robust tool designed to enhance language learning, offering word definitions, synonyms, antonyms, examples, and pronunciation (audio and text). Key features include search, random word, "Word of the Day", and bookmarks.
 
